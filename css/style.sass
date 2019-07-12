@@ -72,13 +72,12 @@ main
 
 #date
 	text-align: right
-	margin: 1vw 0
+	margin-top: 1vw
 
 #top-news
 	background-color: #dedede
 	height: 3vw
-	margin-bottom: 2vw
-	/*tba styling inside*/
+	margin: 1vw auto 2vw
 
 /*===============
   MAIN-UP SECTION
@@ -220,3 +219,18 @@ footer
 #footer-text
 	text-align: center
 	color: white
+
+/*===============
+  MEDIA QUERY SECTION
+  ===============*/
+
+@media screen and (max-width: 480px)
+	
+	#header-img-banner, #middle-banner, #cf-banner, #date, #fswd-banner
+		display: none	
+
+	nav
+		height: 7vw
+		justify-content: center
+		a
+			font-size: 4.5vw
