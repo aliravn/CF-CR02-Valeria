@@ -59,7 +59,7 @@ main {
 #middle-banner img {
   width: 100%; }
 
-.main-down-box {
+.main-down-container {
   border: 1px solid black; }
 
 #main-down {
@@ -68,7 +68,16 @@ main {
   justify-content: space-evenly; }
 
 #main-down-left {
-  flex-grow: 2; }
+  flex-grow: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch; }
+
+.main-down-box {
+  background-color: lightgrey;
+  width: 45%;
+  height: 50%; }
 
 #main-down-right img {
   width: 100%; }
