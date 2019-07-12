@@ -2,7 +2,6 @@ body
 	margin: 0 auto
 	font-size: 2vw
 	max-width: 1360px
-	background: green
 
 nav, nav a
 	background-color: #131313
@@ -40,7 +39,6 @@ span > img
   ===============*/
 
 main
-	background-color: grey
 	margin: 0 auto /*centers main within the body*/
 	width: 95%	
 	/*makes main 95% width of body*/
@@ -82,24 +80,28 @@ main
 	justify-content: space-between
 
 #main-down-left
-	width: 90%
-	background-color: yellow
+	flex-grow: 2
 	display: flex
 	flex-flow: row
 	flex-wrap: wrap
+	justify-content: space-evenly
 
 .article-container
-	background-color: lightgrey
-	border: 1px solid black
-	margin: -1px
-	width: 50%
+	background-color: black
+	/*border: 1px solid white*/
+	/*margin: -1px*/
+	width: 47%
+	color: white
+	margin-bottom: 5vw
 
-.article-img-container, .article-txt-container
-	width: 100%
+.article-container
+	img
+		width: 100%
+		height: 50%
+		object-fit: cover
+	p
 
-.article-img-container > img
-	width: 100%
-	height: 25vh
+
 
 #cf-banner > img
 	width: 15vw
