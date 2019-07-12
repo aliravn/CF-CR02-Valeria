@@ -42,9 +42,6 @@ main {
   margin: 0 auto;
   width: 95%; }
 
-.main-block {
-  border: 1px solid black; }
-
 #date {
   text-align: right; }
 
@@ -52,6 +49,12 @@ main {
   background-color: #dedede;
   /*tba styling inside */ }
 
+/*===============
+ * MAIN-DOWN SECTION
+ * =============== */
+/*===============
+ * middle banner "how to become a developer"
+ * =============== */
 #middle-banner {
   margin: 0 auto;
   width: 90%; }
@@ -59,9 +62,9 @@ main {
 #middle-banner img {
   width: 100%; }
 
-.main-down-container {
-  border: 1px solid black; }
-
+/*===============
+ * MAIN-DOWN SECTION
+ * =============== */
 #main-down {
   display: flex;
   flex-flow: row;
@@ -74,12 +77,28 @@ main {
   justify-content: space-between;
   align-items: stretch; }
 
-.main-down-box {
+.article-container {
   background-color: lightgrey;
-  width: 45%;
-  height: 50%; }
+  /*border: 1px solid black */
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
 
-#main-down-right img {
+/*#iphone-img-container
+ * width: 100%
+ * object-fit: cover */
+#iphone-img {
+  width: 100%; }
+
+#iphone-txt-container {
+  background: white;
+  width: 100%;
+  height: 5vw;
+  display: flex;
+  align-items: center; }
+
+#cf-banner img {
   height: 100%; }
 
 /*===============
@@ -100,6 +119,7 @@ footer {
   width: 25vw; }
 
 #footer-text {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
