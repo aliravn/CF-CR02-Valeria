@@ -59,6 +59,20 @@ main {
 #middle-banner img {
   width: 100%; }
 
+.main-down-box {
+  border: 1px solid black; }
+
+#main-down {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly; }
+
+#main-down-left {
+  flex-grow: 2; }
+
+#main-down-right img {
+  width: 100%; }
+
 /*===============
  * FOOTER SECTION
  * =============== */
