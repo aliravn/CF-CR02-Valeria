@@ -54,8 +54,10 @@ main {
 
 #middle-banner {
   margin: 0 auto;
-  width: 90%;
-  text-align: center; }
+  width: 90%; }
+
+#middle-banner img {
+  width: 100%; }
 
 /*===============
  * FOOTER SECTION
