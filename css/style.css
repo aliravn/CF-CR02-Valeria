@@ -1,7 +1,12 @@
+body {
+  margin: 0 auto; }
+
 header {
-  background-color: #5d1314; }
+  background-color: #5d1314;
+  color: #ffffff; }
 
 nav, footer {
-  background-color: #131313; }
+  background-color: #131313;
+  color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
