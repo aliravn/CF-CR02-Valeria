@@ -46,6 +46,11 @@ main {
   /*display: flex */
   /*flex-flow: column */ }
 
+.text {
+  display: flex;
+  align-items: center;
+  padding-left: 1vw; }
+
 #date {
   text-align: right;
   margin: 1vw 0; }
