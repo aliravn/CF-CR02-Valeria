@@ -1,11 +1,12 @@
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 2vw; }
 
 header {
   background-color: #5d1314;
   color: #ffffff; }
 
-nav, footer {
+nav, footer, nav a {
   background-color: #131313;
   color: #ffffff; }
 
