@@ -3,7 +3,7 @@ body {
   font-size: 2vw;
   max-width: 1360px; }
 
-nav, footer, nav a {
+nav, nav a {
   background-color: #131313;
   color: #ffffff; }
 
@@ -53,10 +53,19 @@ main {
 /*===============
  * FOOTER SECTION
  * =============== */
+footer {
+  background-color: #0f0f0f; }
+
 #footer-logo {
-  text-align: right;
   width: 95%;
-  margin: 0 auto; }
+  height: 13vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+#footer-logo > img {
+  width: 25vw; }
 
 #footer-text {
   text-align: center; }
