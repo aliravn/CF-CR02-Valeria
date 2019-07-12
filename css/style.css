@@ -18,4 +18,9 @@ main {
 #top-news {
   background-color: grey; }
 
+#middle-banner {
+  background-color: lightyellow;
+  /*margin: 0 auto centers main within the main - use flexbox for aligning center */
+  width: 90%; }
+
 /*# sourceMappingURL=style.css.map */
