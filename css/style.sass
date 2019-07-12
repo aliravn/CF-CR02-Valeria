@@ -2,6 +2,7 @@ body
 	margin: 0 auto
 	font-size: 2vw
 	max-width: 1360px
+	background: green
 
 nav, nav a
 	background-color: #131313
@@ -39,9 +40,12 @@ span > img
   ===============*/
 
 main
-	background-color: lightgreen
+	background-color: grey
 	margin: 0 auto /*centers main within the body*/
-	width: 95%	/*makes main 95% width of body*/
+	width: 95%	
+	/*makes main 95% width of body*/
+	/*display: flex*/
+	/*flex-flow: column*/
 
 #date
 	text-align: right
@@ -51,7 +55,7 @@ main
 	/*tba styling inside*/
 
 /*===============
-  MAIN-DOWN SECTION
+  MAIN-UP SECTION
   ===============*/
 
 
@@ -70,46 +74,20 @@ main
 /*===============
   MAIN-DOWN SECTION
   ===============*/
+
 #main-down
+	width: 100%
 	display: flex
 	flex-flow: row
-	justify-content: space-evenly
-
-#main-down-left	
-	flex-grow: 2
-	display: flex
-	flex-wrap: wrap
 	justify-content: space-between
-	align-items: stretch
 
-.article-container
-	background-color: lightgrey
-	/*border: 1px solid black*/
-	width: 50%
-	display: flex
-	flex-flow: column
-	align-items: center
+#main-down-left
+	width: 90%
+	background-color: yellow
 
-/*#iphone-img-container
-	width: 100%
-	object-fit: cover
-
-#iphone-img
-	width: 100%
-
-#iphone-txt-container	
-	background: white
-	width: 100%
-	height: 5vw
-	display: flex
-	align-items: center
-
-
-
-#cf-banner img
-	height: 100%	
-
-
+#cf-banner > img
+	width: 15vw
+	height: 100%
 /*===============
   FOOTER SECTION
   ===============*/
