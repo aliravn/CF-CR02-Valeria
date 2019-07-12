@@ -22,13 +22,11 @@ nav, footer, nav a {
 
 #header-img-logo {
   text-align: left;
-  width: 25%;
-  border: 1px solid white; }
+  width: 25%; }
 
 #header-img-banner {
   text-align: right;
-  width: 60%;
-  border: 1px solid white; }
+  width: 60%; }
 
 span > img {
   width: 100%; }
@@ -45,9 +43,5 @@ main {
   background-color: lightyellow;
   /*margin: 0 auto centers main within the main - use flexbox for aligning center */
   width: 90%; }
-
-@media screen and (max-width: 480px) {
-  #header-img-banner {
-    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
