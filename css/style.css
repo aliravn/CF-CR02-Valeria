@@ -42,12 +42,18 @@ main {
   margin: 0 auto;
   width: 95%; }
 
+#date {
+  text-align: right; }
+
+.main-block {
+  border: 1px solid black; }
+
 #top-news {
   background-color: grey; }
 
 #middle-banner {
   background-color: lightyellow;
-  /*margin: 0 auto centers main within the main - use flexbox for aligning center */
+  margin: 0 auto;
   width: 90%; }
 
 /*===============
