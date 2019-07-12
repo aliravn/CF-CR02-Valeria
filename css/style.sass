@@ -1,14 +1,37 @@
 body
-	margin: 0
+	margin: 0 auto
 	font-size: 2vw
+	max-width: 1360px
 
 header
 	background-color: #5d1314
 	color: #ffffff
+	padding: 1vw 0
 
 nav, footer, nav a
 	background-color: #131313
 	color: #ffffff
+
+#header-content
+	width: 95%
+	/*height: 13vw*/
+	margin: 0 auto
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+#header-img-logo
+	text-align: left
+	width: 25%
+	border: 1px solid white
+
+#header-img-banner
+	text-align: right
+	width: 60%	
+	border: 1px solid white
+
+span > img 
+	width: 100%	
 
 main
 	background-color: lightgrey
@@ -22,3 +45,7 @@ main
 	background-color: lightyellow
 	/*margin: 0 auto centers main within the main - use flexbox for aligning center*/
 	width: 90% /*makes middle-banner 90% width of main*/
+
+@media screen and (max-width: 480px)
+	#header-img-banner
+		display: none
