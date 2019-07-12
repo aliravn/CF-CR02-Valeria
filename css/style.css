@@ -71,7 +71,22 @@ main {
   justify-content: space-between; }
 
 .main-up-rows {
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between; }
+
+.news-container {
+  background-color: black;
+  width: 33%;
+  height: 15.5vw; }
+  .news-container img {
+    width: 100%;
+    height: 12vw;
+    object-fit: cover; }
+  .news-container p {
+    margin: 0;
+    color: white; }
 
 #popular {
   background: orange;
