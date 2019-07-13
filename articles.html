@@ -5,6 +5,32 @@
 	<title>NewspaperCF - Main articles</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+	<style>
+		article {
+			display: flex;
+			margin-bottom: 2vw;
+		}
+		h1 {
+			margin: 0;
+			margin-left: 1vw;
+		}
+
+		article p {
+			margin: 0;
+			margin-left: 1vw;
+		}
+
+		#buttons {
+			display: flex;
+			justify-content: center;
+			margin-top: 3vw;
+		}
+
+		button {
+			margin: 2vw;
+			font-weight: bold;
+		}
+	</style>
 </head>
 
 <body>
@@ -30,10 +56,50 @@
 
 	<main>
 		<div id="date">Friday, 13.07.2019</div>
+
 		<div class="text" id="top-news">
 			<p>Top news</p>
 		</div>
-		<img id="construction" src="img/Dummy_image.jpg" width="1000" alt="under construction">
+		
+		<article>
+			<div class="image">
+				<img src="img/nasa.png" width="240" height="160" alt="nasa.png">
+			</div>
+			<div>
+				<h1>NASA is trying to squash conspiracy theories about the space station leak</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</article>
+		
+		<article>
+			<div class="image">
+				<img src="img/eu.png" width="240" height="160" alt="img/eu.png">
+			</div>
+			<div>
+				<h1>EU approves controversal Copyright Directive, including Internet 'link tax'</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</article>
+		
+		<article>
+			<div class="image">
+				<img src="img/jeff.png" width="240" height="160" alt="img/eu.png">
+			</div>
+			<div>
+				<h1>Jeff Bezos is going to create schools where 'the child the customer'</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</article>
+		<div id="buttons">
+			<button>
+				<a href="https://www.bbc.com/" target="_blank">
+					Read more...
+				</a>
+			</button>
+		</div>
+
+
+
 	</main>	
 	
 	<footer>
@@ -50,6 +116,6 @@
 			<p>Valeria - CodeFactory 2019</p>
 		</div>
 	</footer>
-	
+
 </body>
 </html>
