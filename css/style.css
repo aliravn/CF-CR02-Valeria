@@ -58,8 +58,7 @@ footer nav a {
  * =============== */
 main {
   margin: 0 auto;
-  width: 95%;
-  /*makes main 95% width of body */ }
+  width: 95%; }
 
 .text {
   display: flex;
@@ -277,8 +276,7 @@ footer {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /*margin-left: 3vw */ }
+    justify-content: space-between; }
 
   .news-container, .article-container {
     width: 47%;
