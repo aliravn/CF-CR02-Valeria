@@ -241,6 +241,13 @@ footer {
 
   #top-news, #popular {
     font-size: 4.5vw;
-    height: 5vw; } }
+    height: 5vw; }
+
+  #top-news {
+    margin-left: 2vw; }
+
+  #main-up-left {
+    width: 100%;
+    margin-left: 3vw; } }
 
 /*# sourceMappingURL=style.css.map */
