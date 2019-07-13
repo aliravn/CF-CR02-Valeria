@@ -52,7 +52,6 @@ nav
 		text-decoration: none
 		margin: auto 2vw
 		font-size: 2vw
-
 footer 
 	nav
 		a
@@ -255,7 +254,7 @@ footer
 	
 	#header-img-banner, #middle-banner, #cf-banner, #date, #fswd-banner
 		display: none	
-	
+
 	nav
 		height: 7vw
 		justify-content: center
@@ -265,10 +264,11 @@ footer
 	footer
 		nav
 			a
-				font-size: 2.9vw
+				font-size: 3vw
 
 	main
 		width: 100%
+		min-height: 100%
 
 	#top-news
 		font-size: 4.5vw
@@ -300,7 +300,9 @@ footer
 
 	.news-container, .article-container
 		width: 47%
+		/*min-width: 190px would prevent articles to squeeze for better readability and jump to next line if the screen is too small*/
 		height: 14vh
+		min-height: 150px
 		margin-bottom: 3vw
 
 		img
