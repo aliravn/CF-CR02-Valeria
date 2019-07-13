@@ -134,7 +134,6 @@ main {
   margin: 1vw 0; }
 
 #fswd-banner {
-  background: blue;
   width: 10%;
   height: 100%; }
   #fswd-banner img {
@@ -185,7 +184,8 @@ main {
     object-fit: cover; }
   .article-container p {
     margin: 0;
-    color: white; }
+    color: white;
+    font-size: 1.5vw; }
   .article-container a {
     text-decoration: none; }
 
@@ -239,9 +239,9 @@ footer {
   align-items: center;
   color: white; }
 
-/*===============
+/*===============================================================================================
  * MEDIA QUERY SECTION
- * =============== */
+ * ============================================================================================= */
 @media screen and (max-width: 480px) {
   #header-img-banner, #middle-banner, #cf-banner, #date, #fswd-banner {
     display: none; }
@@ -289,7 +289,7 @@ footer {
 
   .news-container, .article-container {
     width: 47%;
-    /*min-width: 190px would prevent articles to squeeze for better readability and jump to next line if the screen is too small */
+    min-width: 200px;
     height: 14vh;
     min-height: 150px;
     margin-bottom: 3vw; }
@@ -298,9 +298,10 @@ footer {
       height: 70%;
       object-fit: cover; }
     .news-container p, .article-container p {
+      width: 100%;
       margin: 0;
       color: white;
-      font-size: 2.6vw; }
+      font-size: 2.9vw; }
 
   .text-top, .text-bottom {
     width: 95%;
