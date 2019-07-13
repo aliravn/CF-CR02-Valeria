@@ -85,7 +85,7 @@ main {
   width: 100%;
   height: 34vw;
   display: flex;
-  margin-bottom: 1vw; }
+  margin-bottom: 2vw; }
 
 #main-up-left {
   width: 90%;
@@ -137,13 +137,15 @@ main {
     height: 100%;
     object-fit: cover; }
 
+#fswd-banner-hidden {
+  display: none; }
+
 /*===============
  * middle banner "how to become a developer"
  * =============== */
 #middle-banner {
   margin: 0 auto;
-  width: 90%;
-  margin-bottom: 1vw; }
+  width: 90%; }
 
 #middle-banner img {
   width: 100%; }
@@ -153,7 +155,8 @@ main {
  * =============== */
 #main-down {
   width: 100%;
-  display: flex; }
+  display: flex;
+  margin-top: 2vw; }
 
 #main-down-left {
   width: 90%;
@@ -231,6 +234,13 @@ footer {
     height: 7vw;
     justify-content: center; }
     nav a {
-      font-size: 4.5vw; } }
+      font-size: 4.5vw; }
+
+  main {
+    width: 100%; }
+
+  #top-news, #popular {
+    font-size: 4.5vw;
+    height: 5vw; } }
 
 /*# sourceMappingURL=style.css.map */

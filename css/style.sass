@@ -86,7 +86,7 @@ main
 	width: 100%
 	height: 34vw
 	display: flex
-	margin-bottom: 1vw
+	margin-bottom: 2vw
 
 #main-up-left
 	width: 90%
@@ -137,6 +137,9 @@ main
 		width: 100%
 		height: 100%
 		object-fit: cover
+
+#fswd-banner-hidden
+	display: none		
 /*===============
   middle banner "how to become a developer"
   ===============*/
@@ -144,8 +147,7 @@ main
 #middle-banner
 	margin: 0 auto /*centers main within the main - use flexbox for aligning center*/
 	width: 90% /*makes middle-banner 90% width of main*/
-	margin-bottom: 1vw
-	
+		
 #middle-banner img
 	width: 100%
 
@@ -156,6 +158,7 @@ main
 #main-down
 	width: 100%
 	display: flex
+	margin-top: 2vw
 	
 #main-down-left
 	width: 90%
@@ -228,9 +231,17 @@ footer
 	
 	#header-img-banner, #middle-banner, #cf-banner, #date, #fswd-banner
 		display: none	
-
+	
 	nav
 		height: 7vw
 		justify-content: center
 		a
 			font-size: 4.5vw
+	
+	main
+		width: 100%
+
+	#top-news, #popular
+		font-size: 4.5vw
+		height: 5vw
+	
