@@ -248,6 +248,9 @@ footer {
 
   #main-up-left {
     width: 100%;
-    margin-left: 3vw; } }
+    margin-left: 3vw; }
+
+  #fswd-banner-hidden {
+    display: initial; } }
 
 /*# sourceMappingURL=style.css.map */
