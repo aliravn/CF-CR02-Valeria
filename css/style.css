@@ -245,6 +245,9 @@ footer {
     nav a {
       font-size: 4.5vw; }
 
+  footer nav a {
+    font-size: 2.7vw; }
+
   main {
     width: 100%; }
 
@@ -312,6 +315,21 @@ footer {
     display: none; }
 
   #iphone-show-mobile {
-    display: initial; } }
+    display: initial; }
+
+  footer {
+    align-items: center; }
+
+  #footer-logo {
+    height: 14vw;
+    justify-content: center; }
+
+  #footer-logo > img {
+    width: 42vw;
+    margin: 0; }
+
+  #footer-text {
+    height: 15vw;
+    font-size: 2.7vw; } }
 
 /*# sourceMappingURL=style.css.map */
